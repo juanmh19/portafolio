@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header">
+        <p class="header__logo">JMH</p>
+        <nav class="header__navegacion">
+            <a class="header__a" href="#about">Sobre mi</a>
+            <a class="header__a" href="#project">Proyectos</a>
+            <a class="header__a" href="#formulario">Contacto</a>
+            <img class="header__menu" src="assets/img/menu.png" alt="menu hamburguesa">
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+
+            <div class="hero__izquierda">
+                <h1 class="hero__h1">Hola,Yo soy</h1>
+                <p class="hero__animacion">Juan</p>
+                <p class="hero__p">Antes de ser programador, intento ser persona</p>
+                <div class="hero__botones">
+                    <a href="#formulario"><button class="hero__button">Contratame</button></a>
+                    <div class="hero__button--gradiente">
+                        <a href="/CV.docx"><button class="hero__button hero__button--cv">Descarga CV</button></a>
+                    </div>
+                </div>     
+            </div>
+
+            <div class="hero__derecha">
+                <div class="hero__circulo">
+
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="banner__caja">
+                <div class="banner__pareja">
+                    <p id="banner__proyectos" class="banner__numero">5+</p>
+                    <p class="banner__texto">Proyectos</p>
+                </div>
+                <div class="banner__pareja">
+                    <p id="banner__usuarios" class="banner__numero">20+</p>
+                    <p class="banner__texto">Usuarios</p>
+                </div>
+                <div class="banner__pareja">
+                    <p id="banner__certificados" class="banner__numero">5</p>
+                    <p class="banner__texto">Certificados</p>
+                </div>
+                <div class="banner__pareja">
+                    <p id="banner__años" class="banner__numero">1</p>
+                    <p class="banner__texto">Año</p>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about__izquierda">
+                <img class="about__img" src="assets/img/fondo.jpg" alt="">
+            </div>
+            <div class="about__derecha">
+                    <h2 class="about__h2">Sobre Mi</h2>
+                <div class="about__caja">
+                    <p id="about__profesionalmente">Profesionalmente</p>
+                    <p id="about__personalmente">Personalmente</p>
+                </div>
+                <p class="about__texto" id="about__texto">Soy un desarrollador web fullstack, en constante aprendizaje y recientemente iniciado (1 año), principalmente estoy centrado en Javascript y PHP, realice varios cursos y estoy estudiando licenciatura en sistemas, intento afianzar mis conocimentos mediante proyectos y plasmar mi esencia en ellos. </p>
+                <div class="about__caja--habilidades">
+                    <p class="about__datos" id="about__habilidades" href="#">Habilidades</p>
+                    <p class="about__datos" id="about__educacion" href="#">Educación</p>
+                    <p class="about__datos" id="about__certificados" href="#">Certificados</p> 
+                </div>
+                <div class="about__habilidades" id="contenido__habilidades">
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>MySql</li>
+                        <li>Photoshop</li>
+                        <li>Blender</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="about__educacion" id="contenido__educacion">
+                    <ul>
+                        <li>Técnico Electromecánico - 2022</li>
+                        <li>Licenciatura en Sistemas - Cursando</li>
+                    </ul>
+                </div>
+                <div class="about__certificados" id="contenido__certificados">
+                    <ul>
+                        <li>Community Manager - 2022</li>
+                        <li>Diseño grafico orientado a redes - 2022</li>
+                        <li>Fullstack en JS - 2023</li>
+                        <li>Fullstack en PHP - cursando</li>
+                        <li>Big Data - cursando</li>
+                        <li>Diseño UX/UI - cursando</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="project" id="project">
+            <h3 class="project__h3">Proyectos</h3>
+            <div class="project__caja--botones">
+                <button class="project__botones" id="webs">Webs</button>
+                <button class="project__botones" id="js">Js</button>
+                <button class="project__botones" id="php">Php</button>
+            </div>
+            <div class="project__contenedor--cartas" id="project__contenedor__webs">
+                <div class="project__caja--cartas caja__webs">
+                    <div class="project__img">
+                        <div class="project__caja--texto">
+                            <p class="project__img--texto">80%</p>
+                            <p>4/6/23</p>
+                            <a href="https://juanmh19.github.io/pagina-completa/"><img class="cursor" src="assets/img/icons8-source-code-50 (2).png" alt=""></a>  
+                        </div>
+                    </div>
+                    <a href="#"></a>                
+                     <p class="project__titulo">Landing Page de Veterinaria</p>
+                     <p class="project__descripcion">Diseño y creación web</p>
+                 </div>
+                <div class="project__caja--cartas caja__webs">
+                    <div class="project__img">
+                        <div class="project__caja--texto">
+                            <p class="project__img--texto">100%</p>
+                            <p>21/8/23</p>
+                            <a href="https://webdigitalflow.com/index.html?color_ejecutado=azul"><img class="cursor" src="assets/img/icons8-source-code-50 (2).png" alt=""></a>  
+                        </div>
+                    </div>
+                    <a href="#"></a>                     
+                     <p class="project__titulo">Servicio de Desarrollo Web</p>
+                     <p class="project__descripcion">Diseño y creación web</p>
+                 </div>
+                <div class="project__caja--cartas caja__webs">
+                    <div class="project__img">
+                        <div class="project__caja--texto">
+                            <p class="project__img--texto">100%</p>
+                            <p>28/4/23</p>
+                            <a href="https://juanmh19.github.io/integrador/"><img class="cursor" src="assets/img/icons8-source-code-50 (2).png" alt=""></a>  
+                        </div>
+                    </div>                    
+                     <p class="project__titulo">Landing page de Cafes</p>
+                     <p class="project__descripcion">Diseño y creación web</p>
+                 </div>
+                <div class="project__caja--cartas caja__webs">
+                    <div class="project__img">
+                        <div class="project__caja--texto">
+                            <p class="project__img--texto">50%</p>
+                            <p>12/10/23</p>
+                            <a href="https://juanmh19.github.io/burguer/"><img class="cursor" src="assets/img/icons8-source-code-50 (2).png" alt=""></a>  
+                        </div>
+                    </div>
+                    <a href="#"></a>                
+                     <p class="project__titulo">Landing Page de Hamburguesas</p>
+                     <p class="project__descripcion">Diseño y creación web</p>
+                 </div>
+                <div class="project__caja--cartas caja__webs">
+                    <div class="project__img">
+                        <div class="project__caja--texto">
+                            <p class="project__img--texto">20%</p>
+                            <p>13/10/23</p>
+                            <a href="https://juanmh19.github.io/inmobiliaria/"><img class="cursor" src="assets/img/icons8-source-code-50 (2).png" alt=""></a>
+                        </div>
+                    </div>
+                    <a href="#"></a>                     
+                     <p class="project__titulo">E-commerce de Inmobiliaria</p>
+                     <p class="project__descripcion">Diseño y creación web</p>
+                 </div>
+            </div>
+
+
+            <div class="project__contenedor--cartas" id="project__contenedor__javascript">
+                <div class="project__caja--cartas caja__js">
+                    <div class="project__img">
+                        <div class="project__caja--texto">
+                            <p class="project__img--texto">100%</p>
+                            <p>28/9/23</p>
+                            <a href="https://juanmh19.github.io/memotest/"><img class="cursor" src="assets/img/icons8-source-code-50 (2).png" alt=""></a>  
+                        </div>
+                    </div>
+                    <a href="#"></a>                
+                     <p class="project__titulo">MemoTest</p>
+                     <p class="project__descripcion">Videojuego Web</p>
+                 </div>
+                <div class="project__caja--cartas caja__js">
+                    <div class="project__img">
+                        <div class="project__caja--texto">
+                            <p class="project__img--texto">100%</p>
+                            <p>7/10/23</p>
+                            <a href="https://juanmh19.github.io/flappybird/"><img class="cursor" src="assets/img/icons8-source-code-50 (2).png" alt=""></a>  
+                        </div>
+                    </div>
+                    <a href="#"></a>                
+                     <p class="project__titulo">Flappy Bird</p>
+                     <p class="project__descripcion">Videojuego Web</p>
+                 </div>
+            </div>
+
+            <div class="project__contenedor--cartas" id="project__contenedor__php">
+                <div class="project__caja--cartas caja__php">
+                    <div class="project__img">
+                        <div class="project__caja--texto">
+                            <p class="project__img--texto">40%</p>
+                            <p>11/10/23</p>
+                            <a href="https://juanmh19.github.io/sesion/"><img class="cursor" src="assets/img/icons8-source-code-50 (2).png" alt=""></a>  
+                        </div>
+                    </div>
+                    <a href="#"></a>                
+                     <p class="project__titulo">Sistema CRUD</p>
+                     <p class="project__descripcion">Base de Datos y Web</p>
+                 </div>
+                <div class="project__caja--cartas caja__php">
+                    <div class="project__img">
+                        <div class="project__caja--texto">
+                            <p class="project__img--texto">80%</p>
+                            <p>13/10/23</p>
+                            <a href="https://juanmh19.github.io/CRUD/"><img class="cursor" src="assets/img/icons8-source-code-50 (2).png" alt=""></a>  
+                        </div>
+                    </div>
+                    <a href="#"></a>                
+                     <p class="project__titulo">Sistema de Registro - Login</p>
+                     <p class="project__descripcion">Base de Datos y Web</p>
+                 </div>
+            </div>
+
+        </section>
+        <section class="formulario" id="formulario">
+            <div class="formulario__izquierda">
+                <h4 class="formulario__h4">Contactame</h4>
+                <p class="formulario__texto">Actualmente estoy buscando nuevas oportunidades, mi bandeja de entrada siempre estara abierta. 
+                    Si tenes alguna pregunta o simplemente queres saludar, ¡haré todo lo posible para responderte!</p>
+                <div>
+                    <a href="https://www.linkedin.com/in/juan-herner-103a45230/"><img class="formulario__iconos" src="assets/img/linkeding.png" alt=""></a>
+                    <a href="https://www.instagram.com/juanmh17/"><img class="formulario__iconos" src="assets/img/instagram.png" alt=""></a>
+                </div>
+                
+            </div>
+            <div class="formulario__derecha">
+                <form action="https://formsubmit.co/288fbb40ea8023b0f7f554f83b8ffd1c" method="POST">
+                    <label class="formulario__label" for="">Email</label>
+                    <input  class="formulario__input" placeholder="ejemplo@hotmail.com" type="email" name="email" required>
+                    <label class="formulario__label" for="" >Nombre</label>
+                    <input  class="formulario__input" placeholder="Tu nombre para saludarte :D" type="text" name="name">
+                    <label class="formulario__label" for="">Mensaje</label>
+                    <textarea class="formulario__input formulario__input--textarea" placeholder="sobre lo que me hablaras"  name="comments" id="" cols="30" rows="10"></textarea>
+                    <div>
+                        <input class="formulario__submit" type="submit">
+                        <input type="hidden" name="_next" value="https://juanmh19.github.io/portafolio/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h5>JMH</h5>
+        <p class="footer__texto">Todos los derechos reservados 2023</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
+<div>
+    <div>
+        <div>
+            <div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+</div>
