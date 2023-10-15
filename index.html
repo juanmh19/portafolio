@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Portafolio - jmh</title>
 </head>
 <body class="body">
     <header class="header">
-        <p class="header__logo">JMH</p>
+        <p class="header__logo"><span>J</span> <span>M</span> <span>H</span></p>
         <nav class="header__navegacion">
-            <a class="header__a" href="#about">Sobre mi</a>
-            <a class="header__a" href="#project">Proyectos</a>
-            <a class="header__a" href="#formulario">Contacto</a>
-            <img class="header__menu" src="assets/img/menu.png" alt="menu hamburguesa">
+            <div class="header__caja--a">
+                <a class="header__a" href="#about">Sobre mi</a>
+                <a class="header__a" href="#project">Proyectos</a>
+                <a class="header__a" href="#formulario">Contacto</a>
+            </div>
+            <img class="header__menu" id="header__menu" src="assets/img/menu.png" alt="menu hamburguesa">
+            <div class="header__menu--desplegable" id="header__menu__desplegable">
+                <a class="header__a" href="#about">Sobre mi</a>
+                <a class="header__a" href="#project">Proyectos</a>
+                <a class="header__a" href="#formulario">Contacto</a>
+            </div>
         </nav>
     </header>
 
@@ -34,7 +41,7 @@
 
             <div class="hero__derecha">
                 <div class="hero__circulo">
-
+                    <div class="hero__circulo--borde"></div>
                 </div>
             </div>
         </section>
@@ -257,7 +264,7 @@
         </section>
     </main>
     <footer class="footer">
-        <h5>JMH</h5>
+        <p class="header__logo"><span>J</span> <span>M</span> <span>H</span></p>
         <p class="footer__texto">Todos los derechos reservados 2023</p>
     </footer>
     <script src="app.js"></script>

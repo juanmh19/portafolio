@@ -35,6 +35,11 @@
     margin-left: 1rem;
 }
 
+.header__logo span {
+    border: 1px solid #ff7300;
+    padding: 0 10px;
+}
+
 .header__navegacion {
     font-size: 25px;
     display: flex;
@@ -54,16 +59,37 @@
 .header__menu {
     display: none;
 }
+.header__menu--desplegable {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--principal);
+    position: absolute;
+    top: 4.8rem;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+}
 
-@media (max-width: 680px) {
+@media (max-width: 810px) {
     .header {
         justify-content: space-evenly;
     }
-    .header__a {
+    .header__caja--a {
         display: none;
     }
     .header__menu {
         display: block;
+    }
+    .header__a {
+        margin-top: 1rem
+    }
+}
+
+@media(max-width: 350px){
+    .header__menu--desplegable {
+        width: 100%;
+        left: 0;
     }
 }
 
@@ -85,6 +111,12 @@
     -webkit-background-clip: text;
 }
 
+@media(max-width: 480px) {
+    .hero__h1 {
+        font-size: 40px;
+    }
+}
+
 .hero__animacion {
     font-size: 80px;
     font-weight: 600;
@@ -93,11 +125,15 @@
     white-space: nowrap;
     border-right: 4px solid;
     width: 11rem;
-    
     animation: typing 1s steps(12), blink .5s infinite step-end alternate;
     overflow:hidden;
 }
-
+@media(max-width: 480px) {
+    .hero__animacion {
+        font-size: 40px;
+        width: 6rem;
+    }
+}
 
 @keyFrames typing {
 from { width: 0}
@@ -167,6 +203,7 @@ from { width: 0}
 
     .hero__button--gradiente {
         margin-top: 2rem;
+        margin-right: 1rem;
     }
 }
 
@@ -185,6 +222,18 @@ from { width: 0}
     background-image: url(assets/img/avatar\ \(2\).jpg);
     background-size: cover;
     background-position: center;
+}
+
+.hero__circulo:hover, .hero__circulo--borde:hover {
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.hero__circulo--borde {
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid #ff4800b7;
 }
 
 @media (max-width: 850px) {
@@ -223,6 +272,16 @@ from { width: 0}
     color: var(--tercero);
 }
 
+@keyframes banner {
+    0%{
+        width: 20%;
+    }
+    100% {
+        z-index: 1;
+        border: 1px solid var(--secundario);
+    }
+}
+
 @media (max-width: 480px) {
     .banner {
         padding-top: 3rem;
@@ -239,6 +298,7 @@ from { width: 0}
 /* TERCERA SECCION // ABOUT ABOUT */
 
 .about {
+    overflow: hidden;
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;
@@ -319,6 +379,15 @@ from { width: 0}
 
 #about__profesionalmente, #about__personalmente {
     cursor: pointer;
+}
+
+@keyframes desliz-derecha {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media (max-width:880px) {
@@ -574,6 +643,7 @@ from { width: 0}
 }
 
 .formulario__submit {
+    font-size: 18px;
     border: none;
     cursor: pointer;
     margin-top: 1rem;
@@ -581,6 +651,12 @@ from { width: 0}
     height: 2.5rem;
     border-radius: 10px;
     background-color: var(--secundario);
+}
+
+.formulario__submit:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid var(--secundario);
+    transition: 1s;
 }
 
 @media (max-width: 600px ) {
