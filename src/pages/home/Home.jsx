@@ -14,7 +14,7 @@ const Home = ({ setActiveSection }) => {
         <button className='home__button' onClick={() => handleLinkClick('about')}>Más información</button>
       </div>
       <div className='home__right'>
-        <img className='home__img' src="../public/img/yo.jpg" alt="Imagen personal" />
+        <img className='home__img' src="/portafolio/img/yo.jpg" alt="Imagen personal" />
       </div>
     </section>
   );

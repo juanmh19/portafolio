@@ -9,66 +9,66 @@ const Portfolio = () => {
   const projects = [
     {
       link: "https://github.com/juanmh19/api-nasa",
-      imageSrc: "/img/nasa.jpg", // Imágen
-      videoSrc: "/img/nasa.mp4", // Video que se mostrará al hacer hover
+      imageSrc: "portafolio/img/nasa.jpg", // Imágen
+      videoSrc: "portafolio/img/nasa.mp4", // Video que se mostrará al hacer hover
       title: "Api de la Nasa",
       technologies: [
-        { name: "web", icon: "/img/web.png" },
-        { name: "python", icon: "/img/python.png" },
-        { name: "django", icon: "/img/django.png" },
+        { name: "web", icon: "portafolio/img/web.png" },
+        { name: "python", icon: "portafolio/img/python.png" },
+        { name: "django", icon: "portafolio/img/django.png" },
       ],
     },
 
     {
-      link: "https://github.com/juanmh19/api-nasa",
-      imageSrc: "/img/dashboard.jpg", // Imágen
-      videoSrc: "/img/dashboard.mp4", // Video que se mostrará al hacer hover
+      link: "https://github.com/juanmh19/dashboard",
+      imageSrc: "portafolio/img/dashboard.jpg", // Imágen
+      videoSrc: "portafolio/img/dashboard.mp4", // Video que se mostrará al hacer hover
       title: "Dashboard",
       technologies: [
-        { name: "web", icon: "/img/web.png" },
-        { name: "react", icon: "/img/react.png" },
-        { name: "node.js", icon: "/img/nodejs.png" },
+        { name: "web", icon: "portafolio/img/web.png" },
+        { name: "react", icon: "portafolio/img/react.png" },
+        { name: "node.js", icon: "portafolio/img/nodejs.png" },
       ],
     },
 
     {
-      link: "https://github.com/juanmh19/api-nasa",
-      imageSrc: "/img/digital.jpg", // Imágen
-      videoSrc: "/img/digital.mp4", // Video que se mostrará al hacer hover
+      link: "https://github.com/juanmh19/digitalflow",
+      imageSrc: "portafolio/img/digital.jpg", // Imágen
+      videoSrc: "portafolio/img/digital.mp4", // Video que se mostrará al hacer hover
       title: "Emprendimiento",
       technologies: [
-        { name: "web", icon: "/img/web.png" },
-        { name: "js", icon: "/img/javascript.png" },
+        { name: "web", icon: "portafolio/img/web.png" },
+        { name: "js", icon: "portafolio/img/javascript.png" },
       ],
     },
     {
-      link: "https://github.com/juanmh19/api-nasa",
-      imageSrc: "/img/memotest.jpg", // Imágen
-      videoSrc: "/img/memotest.mp4", // Video que se mostrará al hacer hover
+      link: "https://github.com/juanmh19/memotest",
+      imageSrc: "portafolio/img/memotest.jpg", // Imágen
+      videoSrc: "portafolio/img/memotest.mp4", // Video que se mostrará al hacer hover
       title: "Memotest",
       technologies: [
-        { name: "web", icon: "/img/web.png" },
-        { name: "js", icon: "/img/javascript.png" },
+        { name: "web", icon: "portafolio/img/web.png" },
+        { name: "js", icon: "portafolio/img/javascript.png" },
       ],
     },
     {
-      link: "https://github.com/juanmh19/api-nasa",
-      imageSrc: "/img/youtube.jpg", // Imágen
-      videoSrc: "/img/youtube.mp4", // Video que se mostrará al hacer hover
+      link: "https://github.com/juanmh19/descargadorYoutube",
+      imageSrc: "portafolio/img/youtube.jpg", // Imágen
+      videoSrc: "portafolio/img/youtube.mp4", // Video que se mostrará al hacer hover
       title: "YoutubeDownloader",
       technologies: [
-        { name: "web", icon: "/img/web.png" },
-        { name: "python", icon: "/img/python.png" },
+        { name: "web", icon: "portafolio/img/web.png" },
+        { name: "python", icon: "portafolio/img/python.png" },
       ],
     },
     {
-      link: "https://github.com/juanmh19/api-nasa",
-      imageSrc: "/img/flappy.jpg", // Imágen
-      videoSrc: "/img/flappy.mp4", // Video que se mostrará al hacer hover
+      link: "https://github.com/juanmh19/flappybird2",
+      imageSrc: "portafolio/img/flappy.jpg", // Imágen
+      videoSrc: "portafolio/img/flappy.mp4", // Video que se mostrará al hacer hover
       title: "Flappybird",
       technologies: [
-        { name: "web", icon: "/img/web.png" },
-        { name: "js", icon: "/img/javascript.png" },
+        { name: "web", icon: "portafolio/img/web.png" },
+        { name: "js", icon: "portafolio/img/javascript.png" },
       ],
     },
 

@@ -52,7 +52,7 @@ function App({ setActiveSection }) {
         <img
           onClick={clicked}
           className='header__menu2'
-          src="../../../public/img/menu__orange.png"
+          src="../../../portafolio/img/menu__orange.png"
           alt="Menu"
         />
         <div
@@ -60,7 +60,6 @@ function App({ setActiveSection }) {
           id='header__contenedor'
           className='header__contenedor'
         >
-          <img className="header__logo" src="../public/vite.svg" alt="Logo" />
           <nav className="header__nav">
             <div className="header__div" onClick={() => handleLinkClick('home')}>
               <div className="header__icon header__icon--home"></div>
