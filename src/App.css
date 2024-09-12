@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-color: var(--gris);
+  .header__menu2 {
+    display: none;
+  }
+  .header__nav {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .header__div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3f3f3f;
+  }
+  .header__div:hover .header__a{
+    color: var(--principal);
+  }
+  .header__a {
+    font-size: 18px;
+    color: var(--blanco);
+    font-weight: 500;
+    margin-left: 20px;
+  }
+  .header__icon {
+    width: 26px;
+    height: 26px;
+  }
+  .header__icon--home {
+    background-image: url(../public/img/home__white.png);
+  }
+  .header__div:hover .header__icon--home {
+    background-image: url(../public/img/home__orange.png);
+  }
+  .header__icon--person{
+    background-image: url(../public/img/person__white.png);
+  }
+  .header__div:hover .header__icon--person {
+    background-image: url(../public/img/person__orange.png);
+  }
+  .header__icon--list{
+    background-image: url(../public/img/list__white.png);
+  }
+  .header__div:hover .header__icon--list {
+    background-image: url(../public/img/list__orange.png);
+  }
+  .header__icon--work{
+    background-image: url(../public/img/work__white.png);
+  }
+  .header__div:hover .header__icon--work {
+    background-image: url(../public/img/work__orange.png);
+  }
+  .header__icon--chat{
+    background-image: url(../public/img/chat__white.png);
+  }
+  .header__div:hover .header__icon--chat {
+    background-image: url(../public/img/chat__orange.png);
+  }
+}
+
+@media (max-width: 780px) {
+  .header {
+    position: fixed;
+    align-items: end;
+    width: 100%;
+    height: 10vh;
+    justify-content: end;
+    background-color: #3f3f3f00;
+  }
+  .header__contenedor {
+    display: none;
+  }
+  .header__menu2 {
+    display:block!important;
+    width: 40px;
+    margin: 30px 60px;
+    background-color: var(--gris);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .header__menu2:hover {
+    box-shadow: 0 0 3px 0 var(--blanco);
+  }
+}

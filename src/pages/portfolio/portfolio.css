@@ -1,0 +1,153 @@
+.portfolio {
+    background-color: var(--fondo);
+    height: 100vh;
+    width: 100%;
+    color: var(--blanco);
+    overflow-y: scroll;
+    .portfolio__contenedor {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    portfolio__contenedorDivs {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 31.5% 31.5% 31.5%;
+        row-gap: 1rem;
+        gap: 1rem;
+    }
+    .portfolio__h2 {
+        font-size: 40px;
+    }
+
+    .portfolio__barra {
+        width: 5rem;
+        height: 5px;
+        background-color: var(--principal);
+        margin: 10px 0;
+    }
+
+    .portfolio__barra--inferior {
+        width: 3rem;
+    }
+
+    .portfolio__h3 {
+        font-size: 28px;
+        margin: 40px 0;
+    }
+
+    .portfolio__categoria {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+
+    .portfolio__tituloTecnologia {
+        font-size: 48px;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .portfolio__contenedorEspecializaciones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 80px auto;
+        background-color: var(--gris);
+        width: 90%;
+        height: 100%;
+        border-radius: 40px;
+    }
+
+    .portfolio__especializacion {
+        height: 3rem;
+        width: 9rem;
+        border: none;
+        border-radius: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: var(--blanco);
+    }
+    .portfolio__especializacion:hover {
+        background-color:var(--principal);
+        color: var(--blanco);
+        transition: 0.5s;
+    }
+
+    .portfolio__contenedorProyectos {
+        display: grid;
+        grid-template-columns: 31% 31% 31%;
+        row-gap: 20px;
+        gap: 20px;
+        height: 100%;
+    }
+
+    .portfolio__media {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .portfolio__proyecto {
+        color: var(--blanco);
+        background-color: var(--gris);
+        border-radius: 20px;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .portfolio__titulo {
+        margin: 20px 0 10px 0;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .portfolio__tecnologias {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 5px;
+    }
+
+    .portfolio__tecnologia {
+        display: flex;
+        background-color: var(--blanco);
+        width: 6rem;
+        height: 2rem;
+        font-size: 18px;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        color: var(--fondo);
+        margin: 0 10px 10px 10px;
+    }
+    @media (max-width: 780px) {
+        .portfolio__categoria--lenguajes {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin: 20px auto;
+            row-gap: 20px;
+            gap: 20px;
+        }
+    }
+    @media (max-width: 1200px) {
+        .portfolio__contenedorProyectos {
+            grid-template-columns: 48% 48%!important;
+        }
+    }
+    @media (max-width: 680px) {
+        .portfolio__contenedorProyectos {
+            grid-template-columns: 95%!important;
+        }
+    }
+    @media (max-width: 480px) {
+        .portfolio__categoria {
+            display: grid;
+            grid-template-columns: 100%;
+            margin: 20px auto;
+            row-gap: 20px;
+            gap: 20px;
+        }
+    }
+}
