@@ -13,7 +13,7 @@ const Portfolio = () => {
       videoSrc: "portafolio/img/nasa.mp4", // Video que se mostrará al hacer hover
       title: "Api de la Nasa",
       technologies: [
-        { name: "web", icon: "portafolio/img/web.png" },
+        { name: "web", icon: "../portafolio/img/web.png" },
         { name: "python", icon: "portafolio/img/python.png" },
         { name: "django", icon: "portafolio/img/django.png" },
       ],
